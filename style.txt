@@ -1,0 +1,83 @@
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #main-content{
+                display:flex;  
+                gap: 20px;
+                padding: 20px;
+                min-height: 100vh;
+            }
+            .content-area{
+                flex: 3;
+                padding: 30px;
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px;
+            }
+            .content-area img{
+                max-width: 100%;
+                border-radius: 10px;
+                margin-bottom: 20px;
+            }
+            .content-area p{
+                font-size: 18px;
+                margin-bottom: 20px;
+                line-height: 1.6;
+            }
+            .content-area button{
+                background: gray;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .content-area button:hover{
+                background: yellow;
+                color:black;
+            }
+            .right{
+                flex: 1;
+                background: white;
+                border: 1px solid rgb(212, 212, 212);
+                border-radius: 8px;
+                padding: 20px;
+                box-shadow: 0 2px 8px;
+                height: fit-content;
+                position: sticky;
+                top: 20px;
+            }
+            .right h3{
+                margin-top: 0;
+                margin-bottom: 10px;
+                font-size: 20px;
+                color: rgb(14, 14, 14)
+            }
+            .right p{
+                font-size: 14px;
+                color: rgb(26, 26, 26);
+                margin-bottom: 15px;
+            }
+            .right input[type="email"]{
+                width: 95%;
+                padding: 10px;
+                border: 1px solid rgb(43, 43, 43);
+                border-radius: 5px;
+                margin-bottom: 10px;
+                font-size: 14px;
+            }
+            .right button{
+                width: 100%;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                background: rgb(255, 163, 77);
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .right button:hover{
+                background: rgb(56, 56, 56);
+                color: white;
+            }
+        </style>
